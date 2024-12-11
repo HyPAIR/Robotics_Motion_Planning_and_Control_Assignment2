@@ -36,10 +36,6 @@ class TrajGenerator:
         # YOUR CODE ENDS HERE
 
         # Calculate the time profile for the trajectory
-        # YOUR CODE STARTS HERE
-    
-        # YOUR CODE ENDS HERE
-
         time_profile = [0.0] * len(gears)
         last_idx = 0
         start_time = 0.0
