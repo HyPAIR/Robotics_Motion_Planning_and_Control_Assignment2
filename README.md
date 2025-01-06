@@ -1,14 +1,23 @@
 # Description
-Assignments for robotics motion planning and control module in the University of Birmingham (lattice-based path planning + trajectory generation + control) 
+Assignments for robotics motion planning and control module in the University of Birmingham (forward kinematics & inverse kinematics) 
 
-![exp](https://github.com/HyPAIR/Robotics_Motion_Planning_and_Control_Assignment2/blob/main/assignment2.png)
+<div style="display: flex; justify-content: center; align-items: center;">
+  <img src="https://github.com/HyPAIR/Robotics_Motion_Planning_and_Control_Assignment1/blob/main/fk.png" alt="task_allocation" width="680" height="400">
+  <img src="https://github.com/HyPAIR/Robotics_Motion_Planning_and_Control_Assignment1/blob/main/ik.png" alt="task_allocation" width="680" height="400">
+</div>
 
 ## Requirements
  - ROS2 FOXY
  - Ubuntu 20.04
- - Python 3.7, numpy, matplotlib
+If your laptop does not have the Ubuntu operating system installed, you can use a virtual machine to install Ubuntu 20.04:
 
-## Installation:
+    For Windows systems, refer to this [video](https://www.youtube.com/watch?v=x5MhydijWmc) for installation.
+
+    For Mac systems, refer to this [video](https://www.youtube.com/watch?v=Hzji7w882OY) for installation.
+
+## Installation
+### Check out the [docker](https://github.com/HyPAIR/Robotics_Motion_Planning_and_Control_Assignment1_Docker) directory if you want to build this project without installing all the dependencies on your system.
+### Otherwise, follow the steps below to complete the installation on your machine.
 1. Install ROS2 FOXY:
 
 ```shell
